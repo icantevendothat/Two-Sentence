@@ -1,0 +1,52 @@
+body {
+    height: 5000px;
+    margin: 0;
+    padding: 0;
+}
+
+.transition {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin : 0px;
+    margin-bottom: 10px;
+    height: 100%;
+    background-image: url('images/carfog.jpeg'); 
+    background-size: 1800px;
+    transition: background-image 2s ease;
+    
+}
+
+@font-face {
+    font-family: 'EHSMB';
+    src: url(fonts/EHSMB.TTF);
+  }
+  
+
+.firstSentence {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin : 0px 500px;
+    margin-bottom: 10px;
+    font-family: 'EHSMB', serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(230, 212, 18);
+
+}
+.secondSentence{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin : 4200px 500px;
+    margin-bottom: 10px;
+    font-family: 'EHSMB', serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(230, 212, 18);
+}
+
